@@ -13,7 +13,7 @@ using MelonLoader;
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: MelonInfo(typeof(StayMute.StayMute), "StayMute", "1.0.0", "Elly")]
+[assembly: MelonInfo(typeof(StayMute.StayMute), "StayMute", "1.0.1", "Elly")]
 [assembly: MelonGame("VRChat", "VRChat")]
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
