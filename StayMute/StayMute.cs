@@ -12,10 +12,10 @@ namespace StayMute
             _StayMute = MelonPreferences.CreateCategory("StayMute", "StayMute");
             _Enabled = _StayMute.CreateEntry("Enabled", false, "StayMute", "Keep yourself from unmuting");
             //Thanks to DDAkebono for helping me find this. 
-            DefaultTalkController.field_Private_Static_Action_0 += new Action(() =>
+            USpeaker.field_Private_Static_Action_0 += new Action(() =>
             {
                 if (!_Enabled.Value) return;
-                DefaultTalkController.Method_Public_Static_Void_Boolean_0(true);
+                USpeaker.Method_Public_Static_Void_Boolean_0(true);
             });
             Logger.Msg("Started Successfully");
         }
